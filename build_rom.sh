@@ -1,5 +1,5 @@
 # sync rom
-git clone https://github.com/dunggvn/Local-Manifests.git --depth 1 -b aosp .repo/local_manifests
+git clone https://github.com/AlamaDenis/local_manifests.git --depth 1 -b aosp .repo/local_manifests
 repo init -u https://github.com/LineageOS/android.git -b lineage-22.2 --git-lfs --no-clone-bundle
 repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync -j8
 
